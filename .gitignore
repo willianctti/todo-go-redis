@@ -1,0 +1,17 @@
+# Root .gitignore
+# Dependencies
+**/node_modules
+**/.next
+**/.turbo
+**/.vercel
+**/dist
+
+# Environment
+**/.env*
+**/.local
+
+# Logs
+**/*.log
+
+# System files
+.DS_Store
