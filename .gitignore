@@ -1,4 +1,3 @@
-# Root .gitignore
 # Dependencies
 **/node_modules
 **/.next
@@ -8,10 +7,16 @@
 
 # Environment
 **/.env*
-**/.local
+**/.env.local
 
 # Logs
 **/*.log
 
 # System files
 .DS_Store
+
+# Go
+**/tmp/
+
+# Redis
+dump.rdb
